@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Praktikum HTML5</title>
+</head>
+<body>
+	<!-- Elemen Semantik -->
+	<header>
+    	<h1>Selamat Datang di Praktikum HTML5 Desain Web</h1>
+    	<nav>
+        	<ul>
+            	<li><a href="#home">Home</a></li>
+            	<li><a href="#about">Tentang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+        	</ul>
+    	</nav>
+	</header>
+ 
+	<main>
+    	<section id="home">
+        	<article>
+            	<h2>Pengantar HTML5</h2>
+ 	           <p>HTML5 adalah versi terbaru dari HTML yang menyertakan banyak elemen semantik baru untuk mempermudah struktur halaman.</p>
+        	</article>
+    	</section>
+ 
+    	<!-- Elemen Non-Semantik -->
+    	<div>
+        	<h3>Elemen Non-Semantik</h3>
+        	<p>Elemen seperti ini<code><div></code> dan <code><span></code> tidak memiliki makna khusus. Mereka digunakan untuk membungkus konten tanpa memberikan konteks struktural.</p>
+    	</div>
+ 
+    	<!-- Elemen Gambar -->
+    	<section>
+        	<h3>Contoh Gambar</h3>
+        	<img src=".\Assets\about.png" alt="" class="float-left rounded pr-3" width="300">
+    	</section>
+ 
+    	<!-- Elemen Form -->
+    	<section>
+        	<h3>Kritik & Saran</h3>
+        	<form action="#" method="post">
+            	<label for="name">Nama:</label>
+            	<input type="text" id="name" name="name" placeholder="Nama Lengkap">
+            	<br><br>
+            	<label for="email">Email:</label>
+            	<input type="email" id="email" name="email" placeholder="email@example.com">
+            	<br><br>
+            	<label for="message">Pesan:</label>
+            	<textarea id="TextArea" name="TextArea" rows="4" cols="50" placeholder="Tulis pesan Anda di sini"></textarea>
+      	      <br><br>
+            	<input type="submit" value="Kirim">
+				<input type="submit" value="Batalkan">
+        	</form>
+    	</section>
+ 
+    	<!-- Elemen List -->
+    	<section>
+        	<h3>Daftar Makanan Kantek Favorit</h3>
+        	<ul>
+            	<li>Soto</li>
+            	<li>Nasi Portugal</li>
+            	<li>Ayam Penyet</li>
+            	<li>Mie double</li>
+        	</ul>
+    	</section>
+ 
+    	<!-- Elemen Tabel -->
+    	<section>
+        	<h3>Daftar Harga Makanan</h3>
+        	<table border="1">
+            	<thead>
+                	<tr>
+                    	<th>Nama Menu</th>
+                    	<th>Harga per Porsi</th>
+                 </tr>
+            	</thead>
+            	<tbody>
+                	<tr>
+                    	<td>Soto</td>
+                    	<td>Rp 20.000</td>
+                	</tr>
+            	    <tr>
+                    	<td>Nasi Portugal</td>
+                    	<td>Rp 15.000</td>
+                	</tr>
+                	<tr>
+                    	<td>Ayam Penyet</td>
+                    	<td>Rp 18.000</td>
+                	</tr>
+                	<tr>
+                    	<td>Mie double</td>
+                    	<td>Rp 12.000</td>
+                	</tr>
+            	</tbody>
+        	</table>
+    	</section>
+	</main>
+ 
+	<!-- Footer -->
+	<footer>
+    	<div>
+			&copy; 2024 web progaming <a href="https://www.instagram.com/fdzryds" target="_blank" rel="noopener noreferrer">Fadzry Dewa Sya'bana</a>
+		</div>
+	</footer>
+</body>
+</html>
